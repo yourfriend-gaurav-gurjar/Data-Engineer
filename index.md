@@ -4,21 +4,10 @@
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 
-<script src='https://www.google.com/recaptcha/api.js' async defer></script>
-<form action="https://formkeep.com/f/465a94b894fb"
-      accept-charset="UTF-8"
-      enctype="multipart/form-data"
-      method="POST">
+<form accept-charset="UTF-8" action="https://formkeep.com/f/exampletoken" method="POST">
+  <input type="email" name="email" placeholder="Your Email">
+  <input type="text" name="name" placeholder="Your Name">
   <input type="hidden" name="utf8" value="✓">
-
-  <label for="email-address">Email Address</label>
-  <input type="email" id="email-address" name="email">
-
-  <label for="photo-album">Photos</label>
-  <input type="file" id="photo-album" multiple name="photos[]">
-
-  <div class="g-recaptcha" data-sitekey="your_site_key"></div>
-
   <button type="submit">Submit</button>
 </form>
 
