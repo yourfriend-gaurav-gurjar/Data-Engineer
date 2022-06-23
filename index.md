@@ -4,10 +4,18 @@
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 
-<form accept-charset="UTF-8" action="https://formkeep.com/f/b26f62087f5ffe0ba185793523da5390" method="POST">
-  <input type="email" name="email" placeholder="Your Email">
-  <input type="text" name="name" placeholder="Your Name">
+<form action="https://formkeep.com/f/465a94b894fb"
+      accept-charset="UTF-8"
+      enctype="multipart/form-data"
+      method="POST">
   <input type="hidden" name="utf8" value="✓">
+
+  <label for="email-address">Email Address</label>
+  <input type="email" id="email-address" name="email">
+
+  <label for="photo-album">Photos</label>
+  <input type="file" id="photo-album" multiple name="photos[]">
+
   <button type="submit">Submit</button>
 </form>
 
